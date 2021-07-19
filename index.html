@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home Page</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/home.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./images/logo.png" alt="" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0" id="content">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="./index.html"
+								id="home-link"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="./about.html"
+								id="about-link"
+								>About us</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="./product.html"
+								id="product-link"
+								>Products</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="./testimonial.html"
+								id="testimonial-link"
+								>Testimonials</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="./history.html"
+								id="history-link"
+								>History</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="./contact.html"
+								id="contact-link"
+								>Contact us</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<hr id="nav-line" />
+		<div id="main-content">
+			<div id="trees">
+				<img src="./images/home.png" alt="" />
+			</div>
+			<div id="test">
+				<div id="testimonial">
+					<div id="heading-lines" data-aos="zoom-in-up">
+						<h2>TESTIMONIALS</h2>
+						<h3>What people are saying about us</h3>
+						<hr />
+					</div>
+					<div id="heading-cards">
+						<div
+							id="carouselExampleDark"
+							class="carousel carousel-dark slide"
+							data-bs-ride="carousel"
+						>
+							<div class="carousel-indicators">
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="0"
+									class="active"
+									aria-current="true"
+									aria-label="Slide 1"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleDark"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></button>
+							</div>
+							<div class="carousel-inner">
+								<div class="carousel-item active" data-bs-interval="10000">
+									<div>
+										<div id="person-info">
+											<img src="https://rb.gy/buor6z" alt="gulf image" />
+											<h2>GULF OIL</h2>
+										</div>
+										<div id="person-testimonial">
+											<p>
+												Excellent, unassuming and wonderful find. Great variety
+												and fine value tasting menu. Exciting food with high
+												quality presentation, service and inventiveness.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item" data-bs-interval="2000">
+									<div>
+										<div id="person-info">
+											<img src="https://rb.gy/pegboa" alt="" />
+											<h2>VARMA STEELS</h2>
+										</div>
+										<div id="person-testimonial">
+											<p>
+												Always available, innovative, and quick. They have
+												exceeded our company’s expectations… the entire company
+												was thrilled with it! Without any hesitation… highly
+												recommended.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div>
+										<div id="person-info">
+											<img src="./images/tulips.jpeg" alt="" />
+											<h2>TULIPS MEDIA</h2>
+										</div>
+										<div id="person-testimonial">
+											<p>
+												SRM Enterprises has left the best impressions!
+												Hospitable service, delicious cookies, beautiful
+												presentation, wide list and a wonderful experience. We
+												would recommend them to everyone!
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+					<div id="heading-button">
+						<button id="view"><a href="./testimonial.html">MORE</a></button>
+					</div>
+				</div>
+			</div>
+
+			<div id="esteemed-clients">
+				<div id="heading">
+					<h2>Some Of Our Esteemed Clients</h2>
+				</div>
+				<div id="images">
+					<div>
+						<img src="https://rb.gy/buor6z" alt="" />
+						<img src="https://rb.gy/pegboa" alt="" />
+						<img src="./images/tulips.jpeg" alt="" />
+					</div>
+					<div>
+						<img src="https://rb.gy/n3inlq" alt="" /><img
+							src="https://rb.gy/lmuzlp"
+							alt=""
+						/>
+						<img src="https://rb.gy/iunedg" alt="" />
+					</div>
+					<div>
+						<img
+							src="https://th.bing.com/th/id/R.c8b35d2ea786ad86fbc620ba1d31dacf?rik=%2fBI6yqn4YEjEvQ&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f1866%2f8021%2farticles%2fHiLife_Logo_b0ee1f2c-a0a7-499a-8921-8377096e959c_600x.png%3fv%3d1523646584&ehk=2WFAZw6RGhzwFYUc%2bww46d4debOfbH9K6er7vz8RCEk%3d&risl=&pid=ImgRaw"
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div id="quick-link">
+				<a href=""><h4>Privacy Policy</h4></a>
+			</div>
+			<div id="logo-link">
+				<a href="./index.html"><img src="./images/logo.png" alt="" /></a>
+			</div>
+			<div id="important-link">
+				<a href=""><h4>Terms & Conditions</h4></a>
+			</div>
+		</footer>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				delay: 400,
+				once: true,
+			});
+		</script>
+	</body>
+</html>
