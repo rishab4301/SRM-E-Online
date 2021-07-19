@@ -87,12 +87,13 @@
 	color: grey;
 }
 #main-content #trees {
-	height: 85vh;
+	height: auto;
 	width: 99vw;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
-	/* opacity: 1; */
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 #main-content #trees img {
 	width: 95%;
